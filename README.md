@@ -56,3 +56,32 @@ Distributed under the MIT License.
 * **Anvar Ganiev** - *Font-End* - [Anvar Ganiev](https://github.com/99Anvar99) - *client/public, client/app.js, index.js, index.css, serviceworker.js*
 * **Michael Oloruntoba** - *Front-Back Ends* - [Michael Oloruntoba](https://github.com/MichaelToba) - *server/utils, client/pages, client/utils*
 * **Hung Quoc Dang** - *Back-End* - [Hung Quoc Dang](https://github.com/HungQuocDang) - *server/models, server/schemas*
+
+## links
+
+Here is the Heroku link https://shielded-harbor-32787-11953ac1c80a.herokuapp.com/  
+
+It works until after the payment is processed with message “cannot get/ success”, perhaps stripe is used for working in a browser and not for Heroku, probably related to severed security of the transaction.
+
+After cloning from https://github.com/AyushManiSharma/Happy-Feet-Deals.git , do npm i, npm run seed which will seed the database in MongoDB Atlas, and not to the MongoDB Compass, at mongodb+srv://Hung1:Test1234@cluster0.xpplqfx.mongodb.net/happyfeet-shoppinga?retryWrites=true&w=majorit
+
+Then by npm run develop, the localhost:3000 will open, where one can open http://localhost:3001/graphql and insomnia to add users to the database on the cloud that allow to login with those added users’ credentials to buy shoes at checkout with Stripe with no issues.  And the MongoDB Compass will have no affectations at all.
+
+When clicking the Heroku link https://shielded-harbor-32787-11953ac1c80a.herokuapp.com/  and due to npm run seed and previously affecting the cloud database from localhost:3000 ,  http://localhost:3001/graphql and insomnia ; the app allows to do sign up many new users with no issues, but until after the payment is processed with message “cannot get/ success”, perhaps stripe is used for working in a browser and not for Heroku, probably related to severed security of the transaction.
+
+Heroku link:       
+
+https://shielded-harbor-32787-11953ac1c80a.herokuapp.com/ 
+
+GitHub link:      
+
+https://github.com/AyushManiSharma/Happy-Feet-Deals 
+
+GitHub deployment link:               https://ayushmanisharma.github.io/Happy-Feet-Deals/ 
+
+ 
+
+My GitHub profile : https://github.com/HungQuocDang 
+
+My GitHub link to Project-3:  https://github.com/HungQuocDang/Project-3 
+
